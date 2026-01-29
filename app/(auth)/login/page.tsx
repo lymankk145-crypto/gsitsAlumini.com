@@ -91,7 +91,8 @@ export default function LoginPage() {
           </div>
         </div>
 
-        {/* <form onSubmit={handleLogin} className="space-y-4">
+        {
+        /* <form onSubmit={handleLogin} className="space-y-4">
           <div>
             <label className="block text-sm font-medium mb-1">Email</label>
             <Input
@@ -115,7 +116,8 @@ export default function LoginPage() {
           <Button type="submit" disabled={loading} className="w-full">
             {loading ? 'Signing in...' : 'Sign In with Email'}
           </Button>
-        </form> */}
+        </form> */
+        }
 
         <p className="text-sm text-gray-600 text-center">
           Don't have an account?{' '}
